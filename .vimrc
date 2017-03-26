@@ -19,7 +19,7 @@ set nocompatible               " be iMproved
         Plugin 'Indent-Guides'
         Plugin 'L9'
         Plugin 'The-NERD-tree'
-        Plugin 'cscope.vim'
+        "Plugin 'cscope.vim'
         Plugin 'file-line'
         Plugin 'repeat.vim'
         Plugin 'tabular'
