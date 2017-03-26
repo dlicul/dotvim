@@ -106,7 +106,7 @@ set nocompatible               " be iMproved
     "color liquidcarbon " load a colorscheme
     set tabpagemax=15               " only show 15 tabs
     set showmode                    " display the current mode
-
+    set number
     set cursorline                  " highlight current line
 
     if has('cmdline_info')
@@ -149,7 +149,7 @@ set nocompatible               " be iMproved
 " }
 "
 " Formatting {
-    set wrap
+    set nowrap
     set colorcolumn=80              " show margin at 80
     set shiftwidth=4                " use indents of 4 spaces
     set tabstop=8                   " an indentation every 4 columns
