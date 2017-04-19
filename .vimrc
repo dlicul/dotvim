@@ -31,6 +31,7 @@ set nocompatible               " be iMproved
         "Plugin 'Shougo/neosnippet'
         "Plugin 'vim-scripts/JavaScript-Indent'
         "Plugin 'myusuf3/numbers.vim'
+        Plugin 'fatih/vim-go'
         Plugin 'Valloric/YouCompleteMe'
         Plugin 'airblade/vim-gitgutter'
         Plugin 'bling/vim-airline'
@@ -106,7 +107,7 @@ set nocompatible               " be iMproved
     "color liquidcarbon " load a colorscheme
     set tabpagemax=15               " only show 15 tabs
     set showmode                    " display the current mode
-    set number
+
     set cursorline                  " highlight current line
 
     if has('cmdline_info')
@@ -130,15 +131,15 @@ set nocompatible               " be iMproved
 
     set backspace=indent,eol,start  " backspace for dummies
     set linespace=0                 " No extra spaces between rows
-    set nu                          " Line numbers on
+    set number                      " Line numbers on
     set showmatch                   " show matching brackets/parenthesis
     set incsearch                   " find as you type search
     set hlsearch                    " highlight search terms
     set winminheight=0              " windows can be 0 line high
     set ignorecase                  " case insensitive search
-    set smartcase                   " case sensitive when uc present
     set autoindent
     set smartindent
+    set smartcase                   " case sensitive when uc present
     set wildmenu                    " show list instead of just completing
     set wildmode=list:longest,full  " command <Tab> completion, list matches, then longest common part, then all.
     set whichwrap=b,s,h,l,<,>,[,]   " backspace and cursor keys wrap to
@@ -151,7 +152,7 @@ set nocompatible               " be iMproved
 " }
 "
 " Formatting {
-    set nowrap
+    set wrap
     set colorcolumn=80              " show margin at 80
     set shiftwidth=4                " use indents of 4 spaces
     set tabstop=8                   " an indentation every 4 columns
