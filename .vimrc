@@ -32,11 +32,11 @@ set nocompatible               " be iMproved
         "Plugin 'vim-scripts/JavaScript-Indent'
         "Plugin 'myusuf3/numbers.vim'
         Plugin 'fatih/vim-go'
-        Plugin 'Valloric/YouCompleteMe'
+        "Plugin 'Valloric/YouCompleteMe'
         Plugin 'airblade/vim-gitgutter'
         Plugin 'bling/vim-airline'
         Plugin 'corntrace/bufexplorer'
-        Plugin 'docker/docker' , {'rtp': '/contrib/syntax/vim/'}
+        Plugin 'ekalinin/Dockerfile.vim'
         Plugin 'heavenshell/vim-jsdoc'
         Plugin 'kien/ctrlp.vim'
         Plugin 'lambdalisue/nodeunit.vim.git'
@@ -154,7 +154,7 @@ set nocompatible               " be iMproved
 "
 " Formatting {
     set wrap
-    set colorcolumn=80              " show margin at 80
+    "set colorcolumn=80              " show margin at 80
     set shiftwidth=4                " use indents of 4 spaces
     set tabstop=8                   " an indentation every 4 columns
     set softtabstop=4               " let backspace delete indent
