@@ -102,7 +102,8 @@ set nocompatible               " be iMproved
 " }
 
 " Vim UI {
-    color candycode " load a colorscheme
+    color smyck
+    "color candycode " load a colorscheme
     "color solarized  load a colorscheme
     "color liquidcarbon " load a colorscheme
     set tabpagemax=15               " only show 15 tabs
